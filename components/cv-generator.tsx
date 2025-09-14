@@ -47,18 +47,18 @@
 //             <meta name="keywords" content="React.js developer, react.js developer, React.js engineer, react.js engineer, Next.js developer, next.js developer, Next.js engineer, next.js engineer, frontend Engineer,Frontend Engineer, Frontend developer, Frontend Developer, frontend engineer, frontend developer, JavaScript developer, TypeScript developer, MERN stack developer, web developer, software engineer,Software Engineer,Software Developer,software developer">
 //             <style>
 //               @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-              
+
 //               * {
 //                 margin: 0;
 //                 padding: 0;
 //                 box-sizing: border-box;
 //               }
-              
+
 //               @page {
 //                 size: A4;
 //                 margin: 12mm;
 //               }
-              
+
 //               body {
 //                 font-family: 'Inter', sans-serif;
 //                 line-height: 1.3;
@@ -66,18 +66,18 @@
 //                 background: white;
 //                 font-size: 10px;
 //               }
-              
+
 //               .cv-container {
 //                 max-width: none;
 //                 margin: 0;
 //                 padding: 0;
 //                 background: white;
 //               }
-              
+
 //               h1, h2, h3, h4, h5, h6 {
 //                 color: #059669 !important;
 //               }
-              
+
 //               p, span, div, li {
 //                 color: #1e293b !important;
 //               }
@@ -1606,18 +1606,18 @@
 //             <meta name="keywords" content="React.js developer, React developer, Next.js developer, Frontend Engineer, Frontend Developer, JavaScript developer, TypeScript developer, web developer, software engineer, React.js, Next.js, HTML5, CSS3, JavaScript, responsive design, web development, UI development, frontend development">
 //             <style>
 //               @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-              
+
 //               * {
 //                 margin: 0;
 //                 padding: 0;
 //                 box-sizing: border-box;
 //               }
-              
+
 //               @page {
 //                 size: A4;
 //                 margin: 12mm;
 //               }
-              
+
 //               body {
 //                 font-family: 'Inter', sans-serif;
 //                 line-height: 1.3;
@@ -1625,18 +1625,18 @@
 //                 background: white;
 //                 font-size: 10px;
 //               }
-              
+
 //               .cv-container {
 //                 max-width: none;
 //                 margin: 0;
 //                 padding: 0;
 //                 background: white;
 //               }
-              
+
 //               h1, h2, h3, h4, h5, h6 {
 //                 color: #059669 !important;
 //               }
-              
+
 //               p, span, div, li {
 //                 color: #1e293b !important;
 //               }
@@ -2784,6 +2784,10 @@ export function CVGenerator() {
                 color: #1e293b !important;
               }
 
+              .blue {
+                color: #2563eb !important;
+                }
+
               a {
                 color: #2563eb !important;
                 text-decoration: none;
@@ -2997,11 +3001,11 @@ export function CVGenerator() {
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <Phone style={{ width: "12px", height: "12px", color: "#059669" }} />
-                    <span style={{ color: "#1e293b" }}>+8801679632572</span>
+                    <span className="blue" style={{ color: "#2563eb" }}>+8801679632572</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <MapPin style={{ width: "12px", height: "12px", color: "#059669" }} />
-                    <span style={{ color: "#1e293b" }}>Dhaka - 1207, Bangladesh</span>
+                    <span className="blue" style={{ color: "#2563eb" }}>Dhaka - 1207, Bangladesh</span>
                   </div>
                   <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                     <Linkedin style={{ width: "12px", height: "12px", color: "#059669" }} />
@@ -3051,10 +3055,10 @@ export function CVGenerator() {
                   fontSize: "10px",
                 }}
               >
-                Experienced React.js Developer and Next.js Engineer with 3+ years of professional experience in frontend development, 
-                building modern, scalable web applications. Specialized in React.js, Next.js, JavaScript, and TypeScript development 
-                with expertise in responsive web design, cross-browser compatibility, and performance optimization. Proven track record 
-                of delivering high-quality user interfaces and full-stack applications using modern development practices. Strong 
+                Experienced React.js Developer and Next.js Engineer with 3+ years of professional experience in frontend development,
+                building modern, scalable web applications. Specialized in React.js, Next.js, JavaScript, and TypeScript development
+                with expertise in responsive web design, cross-browser compatibility, and performance optimization. Proven track record
+                of delivering high-quality user interfaces and full-stack applications using modern development practices. Strong
                 problem-solving skills with ability to transform complex business requirements into efficient technical solutions.
               </p>
             </div>
@@ -3526,7 +3530,7 @@ export function CVGenerator() {
                   </h4>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: "3px" }}>
                     {[
-                      "HTML5", "CSS3", "Responsive Design", "Tailwind CSS", "Bootstrap", "Material-UI", "shadcn/ui", 
+                      "HTML5", "CSS3", "Responsive Design", "Tailwind CSS", "Bootstrap", "Material-UI", "shadcn/ui",
                       "JavaScript", "TypeScript", "React.js", "Next.js"
                     ].map((skill) => (
                       <span
@@ -3780,7 +3784,7 @@ export function CVGenerator() {
             </div>
 
             {/* References */}
-             <div className="cv-section" style={{ marginBottom: "40px" }}>
+            <div className="cv-section" style={{ marginBottom: "40px" }}>
               <h3
                 style={{
                   display: "flex",
