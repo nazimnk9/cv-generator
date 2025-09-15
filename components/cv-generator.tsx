@@ -2983,7 +2983,7 @@ export function CVGenerator() {
                     color: "#1e293b",
                   }}
                 >
-                  React.js Developer | Next.js Engineer | Frontend Engineer
+                  Frontend Developer (React.js & Next.js)
                 </h2>
                 <div
                   style={{
@@ -3055,11 +3055,7 @@ export function CVGenerator() {
                   fontSize: "10px",
                 }}
               >
-                Experienced React.js Developer and Next.js Engineer with 3+ years of professional experience in frontend development,
-                building modern, scalable web applications. Specialized in React.js, Next.js, JavaScript, and TypeScript development
-                with expertise in responsive web design, cross-browser compatibility, and performance optimization. Proven track record
-                of delivering high-quality user interfaces and full-stack applications using modern development practices. Strong
-                problem-solving skills with ability to transform complex business requirements into efficient technical solutions.
+                Creative and detail-oriented Frontend Developer specializing in React.js and Next.js, with a strong passion for building modern, responsive, and user-friendly web applications. Skilled in transforming complex requirements into seamless digital experiences with a focus on performance, scalability, and accessibility. Proficient in integrating cutting-edge technologies, optimizing UI/UX, and collaborating with cross-functional teams to deliver high-quality solutions on time. Known for writing clean, maintainable code and implementing best practices that align with industry standards. Committed to continuous learning, innovation, and driving business growth through impactful frontend engineering.
               </p>
             </div>
 
