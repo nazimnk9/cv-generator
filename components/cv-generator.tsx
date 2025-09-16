@@ -3680,6 +3680,7 @@ export function CVGenerator() {
                     title: "Bachelor of Science (B.Sc)",
                     subtitle: "Computer Science and Engineering (CSE)",
                     institution: "Bangladesh University, Dhaka",
+                    grade: "CGPA: 3.62",
                   },
                 ].map((edu, index) => (
                   <div
@@ -3703,6 +3704,17 @@ export function CVGenerator() {
                         <p style={{ color: "#1e293b", fontSize: "11px" }}>{edu.subtitle}</p>
                         <p style={{ fontSize: "10px", color: "#475569" }}>{edu.institution}</p>
                       </div>
+                      <span
+                        style={{
+                          fontSize: "10px",
+                          padding: "4px 8px",
+                          borderRadius: "3px",
+                          color: "#475569",
+                          backgroundColor: "#f8fafc",
+                        }}
+                      >
+                        {edu.grade}
+                      </span>
                     </div>
                   </div>
                 ))}
