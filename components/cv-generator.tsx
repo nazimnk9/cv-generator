@@ -2865,6 +2865,7 @@ export function CVGenerator() {
               .profile-right {
                 float: right;
                 margin-left: 20px;
+                margin-right: 4px;
                 margin-bottom: 10px;
               }
 
