@@ -3527,7 +3527,7 @@ export function CVGenerator() {
                   </h4>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: "3px" }}>
                     {[
-                      "HTML5", "CSS3", "Responsive Design", "Tailwind CSS", "Bootstrap", "Material-UI", "shadcn/ui",
+                      "HTML5", "CSS3", "Responsive Design", "Tailwind CSS", "Bootstrap", "Material-UI", "Chakra UI", "Ant Design", "shadcn/ui",
                       "JavaScript", "TypeScript", "React.js", "Next.js"
                     ].map((skill) => (
                       <span
